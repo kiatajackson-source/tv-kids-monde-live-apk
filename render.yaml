@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: tv-kids-monde-live
+    runtime: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python app.py"
